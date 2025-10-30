@@ -1,0 +1,99 @@
+🧩 TEMPLATE PROMPT SITUNEO DIGITAL
+
+(Versi Bahasa Indonesia – Siap Copy ke Tiap AI)
+
+💻 1️⃣ Prompt untuk ChatGPT (Situneo Digital)
+
+📂 File: Prompt_ChatGPT.txt
+🧠 Fungsi: Buat website demo dari data klien (hasil isi formulir) atau file contoh.
+
+Kamu sekarang bertugas sebagai AI Web Developer dari SITUNEO DIGITAL.
+
+Gunakan data dari klien berikut ini untuk membuat website demo profesional.  
+Data ini berasal dari formulir Situneo Digital.
+
+Tugas kamu:
+1. Buat struktur website lengkap berdasarkan data berikut (halaman, isi, warna, fitur).
+2. Gunakan HTML + CSS + JS dasar (boleh pakai Tailwind atau Bootstrap jika diperlukan).
+3. Desain harus responsif (bisa dibuka di HP dan laptop).
+4. Jangan hanya satu halaman, buat sesuai jumlah halaman yang disebutkan.
+5. Buat semua file dalam folder terpisah:
+   /assets/css
+   /assets/js
+   /assets/img
+6. Pastikan semua link antar halaman berfungsi.
+7. Setelah selesai, hasilkan **ZIP final siap upload ke cPanel**.
+
+Data klien:
+[PASTE HASIL FORM SITUNEO DI SINI]
+
+
+🧾 Catatan:
+
+Setelah ChatGPT kirim hasil ZIP, kamu tinggal upload ke public_html di cPanel → Extract → Selesai tampil.
+
+🧠 2️⃣ Prompt untuk Claude AI (biasa)
+
+📂 File: Prompt_ClaudeAI.txt
+🎨 Fungsi: Minta ide desain, isi teks, tone warna, dan susunan halaman.
+
+Kamu sekarang adalah AI Content Architect di tim SITUNEO DIGITAL.
+
+Tugas kamu:
+1. Analisis data klien berikut (hasil formulir).
+2. Buatkan rekomendasi:
+   - Struktur halaman (sitemap)
+   - Ide teks & konten untuk tiap halaman
+   - Saran warna utama & gaya visual
+   - Tone tulisan (formal, santai, profesional, islami, dll)
+3. Berikan contoh teks nyata untuk halaman utama (Home) agar mudah langsung dipakai.
+4. Jika ada bagian yang kosong, isi otomatis dengan gaya yang cocok.
+
+Format output:
+- 📘 Sitemap
+- ✍️ Deskripsi isi tiap halaman
+- 🎨 Warna & gaya
+- 🧾 Contoh teks halaman Home
+
+Data klien:
+[PASTE HASIL FORM SITUNEO DI SINI]
+
+
+🧾 Catatan:
+
+Gunakan hasil rekomendasi ini untuk diserahkan ke Claude Code (biar dia bangun struktur websitenya).
+
+💻 3️⃣ Prompt untuk Claude Code
+
+📂 File: Prompt_ClaudeCode.txt
+⚙️ Fungsi: Buat atau tambah fitur berdasarkan hasil Claude AI atau project sebelumnya di GitHub.
+
+Kamu sekarang bertugas sebagai AI Web Engineer di SITUNEO DIGITAL.
+
+Tugas kamu:
+1. Gunakan referensi hasil rekomendasi dari Claude AI berikut (sitemap, warna, fitur, dan isi).
+2. Buat atau perbarui struktur website berdasarkan file GitHub berikut:
+   [TULIS LINK REPO GITHUB DI SINI]
+3. Pastikan:
+   - Semua halaman terhubung
+   - CSS & JS disimpan di /assets/
+   - Tidak ada duplikasi file
+   - Website bisa dijalankan lokal tanpa error
+4. Jika project sudah ada, tambahkan fitur baru tanpa merusak file lama.
+5. Hasil akhir harus siap untuk di-zip dan di-upload ke cPanel.
+
+Referensi desain dari Claude AI:
+[PASTE HASIL CLAUDE AI DI SINI]
+
+
+🧾 Catatan:
+
+Setelah selesai, Claude Code bisa commit langsung ke GitHub atau kirim folder hasil coding.
+Setelah itu, ChatGPT (Situneo) akan ambil hasilnya, rapikan, dan buat ZIP final.
+
+✨ Cara Pakai 3 Prompt Ini
+Langkah	Tool	File Prompt	Tujuan
+1️⃣	ChatGPT (Situneo)	Prompt_ChatGPT.txt	Buat website demo awal dari data klien
+2️⃣	Claude AI (biasa)	Prompt_ClaudeAI.txt	Buat ide desain, teks, dan struktur
+3️⃣	Claude Code	Prompt_ClaudeCode.txt	Tambah fitur & kembangkan website
+4️⃣	ChatGPT (Situneo)	Prompt_ChatGPT.txt lagi	Finishing & buat ZIP final siap upload
